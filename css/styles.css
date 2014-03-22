@@ -1,0 +1,20 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+	text-align: center;
+}
+
+h1 {
+	font-size: 4.5rem;
+	font-weight: 500;
+}
+
+header h1 {
+	margin-top: 40px;
+}
+
+.welcome {
+	margin: 80px 0;
+}
