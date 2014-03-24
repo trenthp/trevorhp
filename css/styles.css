@@ -15,8 +15,10 @@ h5 {
 }
 
 h1 {
+	color: #fff;
 	font-size: 7rem;
 	font-weight: 500;
+	padding-top: 15%;
 }
 
 h2 {
@@ -26,6 +28,11 @@ h2 {
 /*-----------------------------------
 		Header & Nav
 -----------------------------------*/
+
+
+.intro {
+	margin: 50px 0 25px;
+}
 
 .sub-nav dt, .sub-nav dd, .sub-nav li {
 	font-family: 'Garamond Premier Pro', serif;
@@ -50,7 +57,7 @@ h2 {
 }
 
 .sub-nav dt.active a:hover, .sub-nav dd.active a:hover, .sub-nav li.active a:hover {
-background: #fff;
+	background: #fff;
 }
 
 header h1 {
@@ -60,7 +67,6 @@ header h1 {
 .sub-nav dt a:hover, .sub-nav dd a:hover, .sub-nav li a:hover {
 	background: #fff;
 	-webkit-border-radius: 3px;
-	border-radius: 3px;
 	background: #fff;
 	padding: 0.1875rem 1rem;
 	cursor: default;
@@ -69,9 +75,7 @@ header h1 {
 }
 
 /*-----------------------------------
-		About
+		Header
 -----------------------------------*/
 
-.welcome {
-	margin: 80px 0;
-}
+
